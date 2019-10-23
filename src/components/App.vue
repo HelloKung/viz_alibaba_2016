@@ -14,10 +14,6 @@ import Explore from './navbar/Explore.vue'
 import Switcher from './navbar/Switcher.vue'
 import ContentWrapper from './content/ContentWrapper.vue'
 
-// import store from '../vuex/store'
-// import { fetchViewPort } from '../vuex/actions'
-// import { getViewPort } from '../vuex/getters'
-//
 export default {
     store, //将store注入所有组件作用域
     components: {
@@ -34,7 +30,6 @@ export default {
 
         }
     },
-    // ready: iniApp
 }
 
 //
@@ -47,7 +42,6 @@ function iniApp() {
 
         animator.parentNode.removeChild(loadingText)
         animator.parentNode.removeChild(animator)
-        // console.log('wanna remove animation')
     }
 }
 </script>
