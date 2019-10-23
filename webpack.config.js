@@ -57,6 +57,9 @@ module.exports = {
         //     }
         // }
     },
+    externals: [{
+        xmlhttprequest:'{XMLHttpRequest:XMLHttpRequest}'
+    }],
     devServer: {
         historyApiFallback: true,
         noInfo: true

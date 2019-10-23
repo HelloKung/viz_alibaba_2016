@@ -42,8 +42,8 @@ function iniApp() {
     removeLoadingAnimator()
 
     function removeLoadingAnimator() {
-        var loadingText = document.getElementById('loading')
-        var animator = document.getElementById('circles')
+        let loadingText = document.getElementById('loading')
+        let animator = document.getElementById('circles')
 
         animator.parentNode.removeChild(loadingText)
         animator.parentNode.removeChild(animator)

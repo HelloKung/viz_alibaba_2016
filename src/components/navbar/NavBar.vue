@@ -2,10 +2,10 @@
     <div id="nav-bar">
         <div id="work-description">
             <div id="work-description-title">
-                智慧物流
+                智慧环保
             </div>
             <div id="work-description-detail">
-                剁手党的最后一公里
+                让运维更及时
             </div>
         </div>
 
@@ -21,8 +21,8 @@
         </div>
 
         <div id="aboutMe">
-            <span id="aboutMePowerby">Powered By</span>
-            <a href="http://guoweish.github.io" id="aboutMeName">郭不耐</a>
+            <span id="aboutMePowerby"></span>
+            <a href="http://guoweish.github.io" id="aboutMeName"></a>
         </div>
         <!-- <nav id='navigator' class="navbar navbar-default navbar-fixed-top" role="navigation">
             <div class="nav-menu-option" v-for='menu in menuConfig' v-bind:class="{ 'actived': menu.actived }">
